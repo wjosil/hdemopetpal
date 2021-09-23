@@ -89,7 +89,7 @@ def load():
         "lat": lat,
         "lon": lon
     }
-    return render_template("index.html",render=pet_data)
+    return render_template("load.html",render=pet_data)
 
 @app.route("/api/palsdata")
 def palsdata():
